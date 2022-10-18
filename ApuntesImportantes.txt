@@ -1,0 +1,27 @@
+Selectores de atributos vs selectores de clase
+
+a es menor que clase .
+Los selecctores de clase tienen mayor importancia a los selectores de atributos
+
+ejemplo...
+a href{
+    color.blue
+}
+.colortexto{
+    color.red
+}
+
+*LOS SELECTORES DE CLASE SON MAS IMPORTANTES QUE LOS SELECTORES DE ATRIBUTOS
+
+Selectores de clase vs selectores de atributos
+
+.clase es menor que #id
+ejemplo...
+.clase{
+    color.red
+}
+#id{
+    color.blue
+}
+
+*LOS SELECTORES DE ID SON MAS IMPORTANTES QUE LOS SELECTORES DE CLASE

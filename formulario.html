@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+   <link rel="stylesheet" href="style.css" rel="Archivo de estilo css">
+</head>
+<body>
+   
+<div id="botones">
+    <!--Creo un boton para conectar enlace index-->
+    <a href="Index_hbi.html"><button>Index HBI</button></a>
+    <a href="listadodiv.html"><button>Listado div</button></a>
+</div>
+
+    <h1 class="titulos">Registro</h1>
+    <img class="logo-formulario" src="img/logoformulario.png" alt="logoformulario">
+
+
+    <!--Se hace uso de un div apartado con un numero de identificador # en donde se declaran los atributos unicos de este-->
+    <div id="intrucciones">
+        <p id="intrucciones">
+            Bienvenido por favor sigue los pasos que se te solicitan a continuacion.
+        </p>
+    </div>
+
+        <!--Casillas de registro-->
+    <strong><p>Por favor ingresa tus datos</p></strong>
+    <form action="/enviar-recibir"><!--Con action podemos solicitar una respuesta del formulario del lado del server-->
+    <input type="text" name="Nombre" placeholder="Nombre de usuario" required><br>
+    <input type="password" name="pass" placeholder="Ingrese su contraseña" required><br>
+
+
+<!--Se hace uso de una nueva etiqueta label, es para seleccionar texto en botones se usa en dispositivos moviles para una mejor accesibilidad-->
+<h2 class="subtitulos">Genero</h2>
+<!--    Botones de Radio    -->
+<label for="generom">
+    <input id="generom" type="radio" name="generom-generof-generoi"
+    value="generom" checked required>Masculino</label><br>
+
+<label for="generof">
+    <input  id="generof" type="radio" name="generom-generof-generoi"
+    value="generof">Femenino</label><br>
+
+<label for="generoi">
+    <input id="generoi" type="radio" name="generom-generof-generoi"
+    value="generoi">Indefinido</label><br>
+
+<!--Name y value van de la mano, nombre es el elemento seleccinado y value valora que es lo que fue seleccinado-->
+
+<br>
+<!--    Casillas de validacion, checkbox    -->
+<label class="casillas-verificacion">
+    <input type="checkbox" name="acepto" id="acepto" 
+    value="aceptop" required><strong><em>Acepto terminos y condiciones</em></strong></label><br>
+
+<label class="casillas-verificacion">
+    <input type="checkbox" name="noacepto" id="noacepto" 
+    value="noacepto"><strong><em>No acepto terminos y condiciones</em></strong></label><br>
+
+<!--    Se crea un boton    -->
+        <button type="submit">Enviar</button><br>
+
+</form>
+
+<hr>
+<footer>
+    <a class="derechos-autor" href="https://www.utec.edu.sv" target="_blank"><strong><em><small>Derechos reservados por Universidad Tecnologica de El Salvador</small></em></strong></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#contenedor-principal
+{
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    background-color:#754df7;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*  Se hacen uso de las clases para medir unidades  */
+.rectangulopx{ /*Clase padre rectangulo*/
+    padding: 10px;
+    margin: 5px;
+}
+
+.px{ /*Clase Hija px*/
+    background-color: crimson;
+    width: 200px;
+}
+
+.vw{
+    background-color: green;
+    width: 20vw;
+}
+
+.em{
+    background-color: darkmagenta;
+    width: 20em;
+}

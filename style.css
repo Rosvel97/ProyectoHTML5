@@ -1,0 +1,115 @@
+body{
+  background-color: rgb(157, 156, 238);
+}
+#botones{
+  background-color: aqua;
+}
+
+/*Se hace uso de un identificador en donde se van a definir atibutos solo para este elemento*/
+#intrucciones{
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: crimson;
+  font-size: 20px;
+
+}
+
+
+/*Se hace uso de las clase en donde se mandan a llamar con .(nombre de la clase) y de esta manera en las etiquetas html 
+se agg la clase de la cual se hara uso*/
+.lista{
+  color: navy;
+}
+
+
+/*Se usan atributos para una imagen*/
+.bordes-redondeados-img{
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+}
+
+
+/*Con font size podemos definir el tamaño de la leta
+Con color el color, con font-family la fuente que usaremos*/
+.titulos{
+  font-size: 50px;
+  color: brown;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+  /*Se usan atributos para la img*/
+.logo-formulario{
+  border-width: 1px;
+  border-radius: 20%;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  height: 40px;
+  width: 40px;
+}
+
+.subtitulos{
+  color: royalblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Se crea estilo para parrafo de checkbox*/
+.casillas-verificacion{
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  color: navy;
+}
+
+
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+
+.derechos-autor
+{
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(92, 19, 10);
+}
+
+
+/*Se declaran los mismos estilos para diferentes etiquetas hmtl*/
+h1,
+h4,
+h5
+{
+  color: rgb(73, 21, 21);
+}
+
+
+/*Se usan selectores de atributos para poder dar estilos definidos*/
+input[type="password"]
+{
+  margin: 2px;
+}
+input[type="text"]
+{
+  margin: 2px;
+}
+
+/*Declaro algunos estilos a los atributos a href*/
+a[href="#"]{
+  font-weight: bold;
+  margin: 5px;
+  padding: auto;
+  color: green;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  text-decoration: none;
+
+}
